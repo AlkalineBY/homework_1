@@ -35,7 +35,7 @@ function multiplication(a, b) {
 
 const multiplicationFunction = function (a, b) {
     return a * b;
-}
+};
 
 const arrowMultiplication = (a, b) => a * b;
 

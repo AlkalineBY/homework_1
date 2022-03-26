@@ -47,7 +47,7 @@ function division(a, b) {
 const divisionFunction = function (a, b) {
     const result = a / b;
     return result;
-}
+};
 
 const arrowDivision = (a, b) => {
     const result = a / b;

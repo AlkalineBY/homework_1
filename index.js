@@ -1,36 +1,25 @@
 function addition(a, b) {
-    const result = a + b;
-    return result;
+    return a + b;
 }
 
 const additionFunction = function (a, b) {
-    const result = a + b;
-    return result;
+    return a + b;
 };
 
-const arrowAddition = (a, b) => {
-    const result = a + b;
-    return result;
-};
+const arrowAddition = (a, b) => a + b;
 
 function subtraction(a, b) {
-    const result = a - b;
-    return result;
+    return a - b;
 }
 
 const subtractionFunction = function (a, b) {
-    const result = a - b;
-    return result;
+    return a - b;
 };
 
-const arrowSubtraction = (a, b) => {
-    const result = a - b;
-    return result;
-};
+const arrowSubtraction = (a, b) => a - b;
 
 function multiplication(a, b) {
-    const result = a * b;
-    return result;
+    return a * b;
 }
 
 const multiplicationFunction = function (a, b) {
@@ -40,124 +29,84 @@ const multiplicationFunction = function (a, b) {
 const arrowMultiplication = (a, b) => a * b;
 
 function division(a, b) {
-    const result = a / b;
-    return result;
+    return a / b;
 }
 
 const divisionFunction = function (a, b) {
-    const result = a / b;
-    return result;
+    return a / b;
 };
 
-const arrowDivision = (a, b) => {
-    const result = a / b;
-    return result;
-}
+const arrowDivision = (a, b) => a / b;
 
 function remainder(a, b) {
-    const result = a % b;
-    return result;
+    return a % b;
 }
 
 const remainderFunction = function (a, b) {
-    const result = a % b;
-    return result;
-}
+    return a % b;
+};
 
-const arrowRemainder = (a, b) => {
-    const result = a % b;
-    return result;
-}
+const arrowRemainder = (a, b) => a % b;
 
 function more(a, b) {
-    const result = a > b;
-    return result;
+    return a > b;
 }
 
 const moreFunction = function (a, b) {
-    const result = a > b;
-    return result;
-}
+    return a > b;
+};
 
-const arrowMore = (a, b) => {
-    const result = a > b;
-    return result;
-}
+const arrowMore = (a, b) => a > b;
 
 function less(a, b) {
-    const result = a < b;
-    return result;
+    return a < b;
 }
 
 const lessFunction = function (a, b) {
-    const result = a < b;
-    return result;
-}
+    return a < b;
+};
 
-const arrowLess = (a, b) => {
-    const result = a < b;
-    return result;
-}
+const arrowLess = (a, b) => a < b;
 
 function moreOrEquals(a, b) {
-    const result = a >= b;
-    return result;
+    return a >= b;
 }
 
 const moreOrEqualsFunction = function (a, b) {
-    const result = a >= b;
-    return result;
-}
+    return a >= b;
+};
 
-const arrowMoreOrEquals = (a, b) => {
-    const result = a >= b;
-    return result;
-}
+const arrowMoreOrEquals = (a, b) => a >= b;
 
 function lessOrEquals(a, b) {
-    const result = a <= b;
-    return result;
+    return a <= b;
 }
 
 const lessOrEqualsFunction = function (a, b) {
-    const result = a <= b;
-    return result;
-}
+    return a <= b;
+};
 
-const arrowLessOrEquals = (a, b) => {
-    const result = a <= b;
-    return result;
-}
+const arrowLessOrEquals = (a, b) => a <= b;
 
 function equals(a, b) {
-    const result = a === b;
-    return result;
+    return a === b;
 }
 
 const equalsFunction = function (a, b) {
-    const result = a === b;
-    return result;
-}
+    return a === b;
+};
 
-const arrowEquals = (a, b) => {
-    const result = a === b;
-    return result;
-}
+const arrowEquals = (a, b) => a === b;
 
 function notEquals(a, b) {
-    const result = a !== b;
-    return result;
+    return a !== b;
 }
 
 const notEqualsFunction = function (a, b) {
-    const result = a !== b;
-    return result;
-}
+    return a !== b;
+};
 
-const arrowNotEquals = (a, b) => {
-    const result = a !== b;
-    return result;
-}
+const arrowNotEquals = (a, b) => a !== b;
 
 console.log('Вызов функции сложения:');
 console.log(addition(5, 3));

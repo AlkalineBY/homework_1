@@ -1,8 +1,8 @@
 const number = (a) => {
     if (a % 2) {
-        console.log('Число ' + a + ' нечётное.')
+        console.log('Число ' + a + ' нечётное.');
     } else {
-        console.log('Число ' + a + ' чётное.')
+        console.log('Число ' + a + ' чётное.');
     }
 };
 

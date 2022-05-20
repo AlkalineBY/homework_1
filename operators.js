@@ -35,9 +35,9 @@ const multiTer = (e) => {
 };
 
 const sum = (f, g) => {
-    if ((!(+f % 2)) && (!(+g % 2))) {
+    if (!(+f % 2) && !(+g % 2)) {
         console.log(+f + +g);
-    } else if ((!(+f % 2)) || (!(+g % 2))) {
+    } else if (!(+f % 2) || !(+g % 2)) {
         console.log(+f - +g);
     } else {
         console.log(+f * +g);
